@@ -2,7 +2,7 @@
 import mysql.connector
 
 #open connection
-db = mysql.connector.connect(host ="localhost", user="root", password="you wish", database="sense_data")
+db = mysql.connector.connect(host ="localhost", user="root", password="Not that easy m8", database="sense_data")
 print(db)
 
 mycursor = db.cursor()
